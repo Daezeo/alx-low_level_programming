@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Positive anything is better than negative nothing
- * Return: 0 is mostly returned
+ * Return: 0 (Successful)
  */
 
 int main(void)
