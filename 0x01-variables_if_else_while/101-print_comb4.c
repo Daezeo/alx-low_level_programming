@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Printing numbers between 012 to 789.
+ * main - Prints numbers between 012 to 789.
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -19,7 +19,7 @@ int main(void)
 		while (i < 58)
 		{
 			g = 48;
-			while (e < 58)
+			while (g < 58)
 			{
 				if (e != i && e != g && i != g && e < i && i < g)
 				{
