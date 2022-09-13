@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Numbers between 0 and 9 with spaces
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
@@ -12,11 +12,10 @@ int main(void)
 	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
-		if (i != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+	}
+	for (i = 97; i < 103; i++)
+	{
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
