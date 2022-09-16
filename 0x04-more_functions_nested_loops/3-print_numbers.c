@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,12 +9,11 @@
 
 void print_numbers(void)
 {
-	char a = 0;
+	int n;
 
-	while (a <= 9)
+	for (n = 48; n < 58; n++)
 	{
-		_putchar(a + '0');
-		a++;
+		putchar(n);
 	}
-	_putchar('\n');
+	putchat(10);
 }
